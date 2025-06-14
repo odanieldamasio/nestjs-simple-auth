@@ -3,7 +3,7 @@ import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcrypt';
 
 @Injectable()
-export class AuthSevice {
+export class AuthService {
   constructor(private jwtService: JwtService) {}
 
   async validatePassword(password: string, hash: string): Promise<boolean> {

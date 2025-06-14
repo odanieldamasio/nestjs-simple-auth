@@ -2,8 +2,8 @@ import { Module, DynamicModule } from '@nestjs/common';
 import { JwtModule } from '@nestjs/jwt';
 import { PassportModule } from '@nestjs/passport';
 import { JwtStrategy } from './jwt.strategy';
-import { AuthService } from './auth.service';
 import { jwtConstants } from './jwt.constants';
+import { AuthService } from './auth.service';
 
 @Module({})
 export class AuthModule {
