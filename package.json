@@ -1,6 +1,6 @@
 {
   "name": "@odanieldamasio/nestjs-simple-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and modular NestJS authentication library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
